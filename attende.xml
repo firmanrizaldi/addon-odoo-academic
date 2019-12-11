@@ -42,7 +42,7 @@
         <field name="name">attendee_search</field>
         <field name="model">academic.attendee</field>
         <field name="arch" type="xml">
-            <search string="s">
+            <search string="Session">
                 <field name="session_id" />
                 <field name="name"/>
                 <group expand="1" string="Group By">
